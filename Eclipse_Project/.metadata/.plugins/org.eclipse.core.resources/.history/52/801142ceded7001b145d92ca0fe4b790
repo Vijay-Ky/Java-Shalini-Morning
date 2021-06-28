@@ -1,0 +1,21 @@
+package com.shalini.java;
+
+public class Practice {
+
+	public static void main(String[] args) {
+		int i;
+		i = 100;
+		System.out.println(i);//100
+		//the same variable we can able reinitialize any no. of times
+		i = 200;
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		System.out.println(i);
+		i = 400;
+		//concatination
+		System.out.println("The current value of i: " + i);
+
+	}
+
+}
