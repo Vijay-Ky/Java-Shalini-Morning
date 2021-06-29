@@ -1,0 +1,157 @@
+package com.shalini.java;
+
+public class Practice {
+
+	public static void main(String[] args) {
+//		int i;
+//		i = 100;
+//		System.out.println(i);//100
+//		//the same variable we can able reinitialize any no. of times
+//		i = 200;
+//		System.out.println(i);
+//		System.out.println(i);
+//		System.out.println(i);
+//		System.out.println(i);
+//		i = 400;
+//		//Concatenation
+//		System.out.println("The current value of i: " + i);
+		
+//		int i;
+//		i = 10;
+//		System.out.println(i);
+//		i = 20 + 40;
+//		System.out.println(i);
+
+		
+//		double j;//decalaration
+//		j = 10.6;//initialization
+//		System.out.println(j);
+//		j = 20.8;//reinitialization
+//		System.out.println(j);
+//		j = 40.0;//reinitialization
+//		System.out.println(j);
+		
+		
+//		int i = 10;
+//		int j = 20;
+//		System.out.println(i);
+//		System.out.println(j);
+		
+//		int i = 10, j = 20; 
+//		System.out.println(i);
+//		System.out.println(j);
+		
+		
+		
+//		int x, y, z = 20, p;
+//		x = 10;
+//		y = p = 40;
+//		System.out.println(x);
+//		System.out.println(y);
+//		System.out.println(z);
+//		System.out.println(p);
+		
+		
+//		String s1, s2 = "xyz", s3 = "hello";
+//		boolean f1 = true, f2, f3 = false;
+//		s1 = "test";
+//		f2 = true;
+//		System.out.println(s1);
+//		System.out.println(s2);
+//		System.out.println(s3);
+//		System.out.println(f1);
+//		System.out.println(f2);
+//		System.out.println(f3);
+		
+//		int i;
+//		System.out.println(i);
+		
+		
+//		int i;
+//		System.out.println(i = 10);
+//		System.out.println(i = 20);
+//		System.out.println(i = 30);
+//		System.out.println(i = 40);
+//		System.out.println(i);
+//		System.out.println(i);
+		
+		
+//		String s;
+//		System.out.println(s = "abc");
+//		System.out.println(s);
+//		System.out.println(s);
+		
+		
+//		int i;
+//		int j = 10 + (i = 20);
+//		System.out.println(i);
+//		System.out.println(j);
+		
+//		int i;
+//		int j = 10 + i;	
+//		System.out.println(i);
+//		System.out.println(j);
+		
+//		int i;
+//		int j = 10 + i + (i = 2);
+//		System.out.println(i);
+//		System.out.println(j);
+	
+//		int i;
+//		i = 30;
+//		System.out.println("done: " + i);
+		
+		//unary operators
+		//post  - post increment, post decrement
+		//pre  - pre increment, pre decrement
+//		int i = 0;
+//		System.out.println(i++);//0  // i = i + 1;
+//		System.out.println(i++);//1
+//		System.out.println(i);//2
+		
+		
+//		int i = -2;
+//		System.out.println(i-- + i + i-- + i);//-2 + -3 + -3 + -4
+		
+		
+		
+//		int i = 0;
+//		int j = i++ + i + i++ + i;
+//		System.out.println(i);
+//		System.out.println(j);
+		
+//		int i = 0;
+//		int j = i++ + i + i-- + i +//0 + 1 + 1 + 0
+//		i-- + i++ + i-- + i +//0 + -1 + 0 + -1
+//		i++ + i-- + i + i++ + i;//-1 + 0 + -1 + -1 + 0
+//		System.out.println(i);
+//		System.out.println(j);
+		
+		
+		
+		//initialization, boolean condition, increment/decrement
+		for(int i = 0; i < 5; i++)
+		{
+			System.out.println("loop begin");
+			if(i > 2)
+			{
+				continue;
+			}
+			System.out.println("loop end");
+		}
+		System.out.println("main end");
+	}
+
+}
+/* i = 0
+ * loop begin
+ * loop end
+ * loop begin
+ * loop end
+ * loop begin
+ * loop end
+ * loop begin
+ * loop begin
+ * main end
+ 
+ */

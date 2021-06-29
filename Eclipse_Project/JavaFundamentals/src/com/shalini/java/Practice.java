@@ -120,12 +120,42 @@ public class Practice {
 //		System.out.println(i);
 //		System.out.println(j);
 		
-		int i = 0;
-		int j = i++ + i + i-- + i +//0 + 1 + 1 + 0
-		i-- + i++ + i-- + i +//0 + -1 + 0 + -1
-		i++ + i-- + i + i++ + i;//-1 + 0 + -1 + -1 + 0
-		System.out.println(i);
-		System.out.println(j);
+//		int i = 0;
+//		int j = i++ + i + i-- + i +//0 + 1 + 1 + 0
+//		i-- + i++ + i-- + i +//0 + -1 + 0 + -1
+//		i++ + i-- + i + i++ + i;//-1 + 0 + -1 + -1 + 0
+//		System.out.println(i);
+//		System.out.println(j);
+		
+		
+		
+		//initialization, boolean condition, increment/decrement
+		for(int i = 0; i < 2; i++)
+		{
+			System.out.println("loop1 begin");
+			for(int j = 0; j < 5; j++)
+			{
+				System.out.println("loop2 begin");
+				if(j > 2)
+				{
+					break;
+				}
+				System.out.println("loop2 end");
+			}
+			System.out.println("loop1 end");
+		}
+		System.out.println("main end");
 	}
 
 }
+/* i = 0
+ * loop begin
+ * loop end
+ * loop begin
+ * loop end
+ * loop begin
+ * loop end
+ * loop begin
+ * main end
+ 
+ */
